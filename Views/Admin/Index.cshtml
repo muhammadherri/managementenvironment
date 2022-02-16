@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<h2>Index</h2>
+<div id="themeSlider" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#themeSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#themeSlider" data-slide-to="1"></li>
+        <li data-target="#themeSlider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <div class="imgOverlay"></div>
+            <img style="height:500px;width:100%"
+            src="~/Content/Img/building6.jpg"  alt="First slide">
+            <div class="carousel-caption">
+                <h3>Environment</h3>
+                
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img style="height:500px;width:100%" src="~/Content/Img/photo-1528297506728-9533d2ac3fa4.jpeg" alt="Second slide">
+            <div class="carousel-caption">
+                <h3>Nature</h3>
+                
+            </div>
+        </div>
+        <div class="item">
+            <div class="imgOverlay"></div>
+            <img style="height:500px;width:100%" src="~/Content/Img/building2.jpg" alt="Third slide">
+            <div class="carousel-caption">
+                <h3>Healthy Food</h3>
+
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#themeSlider" data-slide="prev">
+        <span class="fa fa-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" href="#themeSlider" data-slide="next">
+        <span class="fa fa-chevron-right"></span>
+    </a>
+    <div class="main-text hidden-xs hidden-sm">
+        <div class="col-md-12 text-center">
+            @*<h1>Static Headline And Content</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+                <div class="clearfix"></div>
+                <div class="carousel-btns">
+                    <a class="btn btn-md btn-default" href="">Login</a>
+                    <a class="btn btn-md btn-default" href="">Registration</a>
+                </div>*@
+        </div>
+    </div>
+</div>
